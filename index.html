@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps CI Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>DevOps CI Dashboard</h1>
+        <p>GitHub + Jenkins Integration Demo</p>
+    </header>
+
+    <main>
+
+        <section class="status-card">
+            <h2>CI Pipeline Status</h2>
+            <div class="status">READY</div>
+            <p>The project is configured for Continuous Integration.</p>
+        </section>
+
+        <section class="details">
+            <div>
+                <h3>Source Repository</h3>
+                <p>GitHub</p>
+            </div>
+
+            <div>
+                <h3>Build Server</h3>
+                <p>Jenkins</p>
+            </div>
+
+            <div>
+                <h3>Branch</h3>
+                <p>main</p>
+            </div>
+
+            <div>
+                <h3>Build Type</h3>
+                <p>Freestyle Project</p>
+            </div>
+        </section>
+
+        <section class="workflow">
+            <h2>CI Workflow</h2>
+
+            <div class="pipeline">
+                <span>GitHub</span>
+                <span>→</span>
+                <span>Checkout</span>
+                <span>→</span>
+                <span>Build</span>
+                <span>→</span>
+                <span>Verification</span>
+            </div>
+        </section>
+
+        <section class="about">
+            <h2>About This Project</h2>
+            <p>
+                This application demonstrates how Jenkins retrieves source code
+                from a GitHub repository and performs a basic Continuous
+                Integration build.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>DevOps Practical — Jenkins and GitHub Integration</p>
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
